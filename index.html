@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Water+Brush&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+            body{
+           display: grid;
+           min-height: 100vh;
+           place-content: center;
+           font-family: 'Roboto', sans-serif;
+         
+       }
+     
+        div{
+            text-align: center;
+        }
+       
+        img{
+            position: relative;
+            right:0px;
+            height:150px;
+            width:150px;
+            margin-bottom: 10px;
+            object-fit: cover;
+           
+        }
+        p{
+            margin-bottom: 40px;
+        }
+        .y{
+            position: relative;
+            left:45px;
+        }
+        .x{
+            position:relative;
+            left: 45px;
+        }
+        .contents{
+           
+            align-self: flex-end;
+            margin-bottom: 20px;
+        }
+        .a{
+           position: relative;
+           left:30px;
+        }
+        .b{
+            position: relative;
+            right:70px;
+        }
+        select{
+            width:70px
+           
+        }
+     form{
+        display: grid;
+        top:-50px;
+         position: relative;
+         right:140px;
+         padding-left: 30px;
+         padding-top: 30px;
+         border: 2px solid black;
+         width:450px;
+         margin-left: 280px;
+     }
+     section{
+         display: grid;
+         place-content: center;
+         width: 500px;
+         padding: 20px;
+         margin-left: 250px;
+         margin-top: 250px;  
+       
+         border: 2px solid black;
+       
+ 
+     }
+     button{
+         position:relative;
+         left:50px;
+         bottom: 10px;
+     }
+     h1{
+     
+       
+     letter-spacing: 5px;
+     }
+     button{
+           width:120px;
+           margin:15px;
+       }
+       h1{
+           position: relative;
+           top:-30px;
+           font-size: 50px;
+       }
+       p{
+           position: relative;
+           top:-50px;
+       }
+     .cont{
+         position: relative;
+         right: 40px;
+     }
+     @media(min-width:768px){
+       body{
+        display: flex;
+        padding-bottom: 100px;
+        padding-right: 250px;        
+         }
+       form{
+           position: relative;
+           top:-10px;
+           display: flex;
+           width:700px;
+          justify-content: space-between;
+          margin-bottom: 60px;
+       }
+       img{
+           position:relative;
+           left:30px;
+       }
+       section{
+           width:800px;
+           height:400px;
+           padding-bottom:50px ;
+           
+       }
+       button{
+           width:120px;
+           margin:15px;
+       }
+       h1{
+           position: relative;
+           top:30px;
+           font-size: 50px;
+       }
+       p{
+           position: relative;
+           top:0px;
+       }
+       }
+     
+    </style>
+</head>
+<body>
+   <section>
+    <div> <h1 style=" font-family: 'Grape Nuts', cursive;">Event 1</h1> <p>No. of available seats: 23</p> </div>
+    <form>
+        <div class="image"><img src="https://www.careeraddict.com/uploads/article/59099/illustration-man-suit.jpg"></div>
+        <div class="cont">
+    <div class="contents y"><label>Name:</label> <input size="30px" type="text" required></div>
+    <div class="contents x" ><label>Email:</label> <input size="30px" type="email" required></div>
+    <div class="contents a"><labek>Phone No.:</labek> <input type="text" size="30px" required></div>
+    <div class="contents b"><label>Number of seats: </label> <select><option value="1" >1</option><option value="2" >2</option></select required> </div>
+    <div class="contents c"><label>Name of Attendee 2:</labek>  <input type="text" size="30px" required></div>    
+    <button type="submit">submit</button>   <button type="button">cancel</button>
+</div>
+   
+</form></section>
+</body>
+</html>
